@@ -12,13 +12,13 @@
 
  2 - Instalar dependencias de app
  
-npm install
+     npm install
 
  3 - Probar app
  
-npm start
+     npm start
 
 La salida debiese ser:
 
-La conexión ha sido existosa
+     La conexión ha sido existosa
 
