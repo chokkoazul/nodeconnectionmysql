@@ -4,11 +4,11 @@
 
  Con docker:
      
-     >> docker run --name mysqlcontainer -p 3306:3306 -e MYSQL_ROOT_PASSWORD=clave -e MYSQL_DATABASE=universidades -d mysql:5.7.30
+     docker run --name mysqlcontainer -p 3306:3306 -e MYSQL_ROOT_PASSWORD=clave -e MYSQL_DATABASE=universidades -d mysql:5.7.30
 
  Con docker-compose:
      
-     >> docker-compose up
+     docker-compose up
 
  2 - Instalar dependencias de app
  
