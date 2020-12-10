@@ -4,6 +4,6 @@ services:
     image: mysql:5.7.30
     environment:
         MYSQL_ROOT_PASSWORD : "clave"
-        MYSQL_DATABASE : "universidades"
+        MYSQL_DATABASE : "techtalks"
     ports:
       - "3306:3306"
